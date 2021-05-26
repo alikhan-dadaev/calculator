@@ -1,0 +1,27 @@
+
+.app {
+    margin: auto;
+    text-align: center;
+}
+.main {
+    width: 300px;
+    margin: auto;
+    border: 5px groove black;
+}
+input {
+    margin: 20px;
+    border: 2px solid black;
+    width: 100px;
+
+}
+button {
+    margin: 10px;
+}
+.result {
+    margin: 20px;
+    font-size: 30px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
