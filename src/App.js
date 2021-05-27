@@ -6,6 +6,12 @@ function App(props) {
     const [numberTwo, setNumberTwo] = useState()
     const [result, setResult] = useState()
 
+
+    const numb = parseInt(number)
+    const numbTwo = parseInt(numberTwo)
+
+
+
     const handleChange = (e) => {
         setNumber(e.target.value)
     }
@@ -14,22 +20,22 @@ function App(props) {
     }
     const handlePlus = () => {
         setResult (
-           parseInt(number + numberTwo)
+           parseInt(numb + numbTwo)
         )
     }
     const handleMinus = () => {
         setResult (
-            parseInt(number - numberTwo)
+            parseInt(numb - numbTwo)
         )
     }
     const handleMultiply = () => {
         setResult (
-            parseInt(number * numberTwo)
+            parseInt(numb * numbTwo)
         )
     }
     const handleDegree = () => {
         setResult (
-            parseInt(number / numberTwo)
+            parseInt(numb / numbTwo)
         )
     }
 
